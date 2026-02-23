@@ -1,0 +1,82 @@
+import breakfastSplImg from "../assets/images/breakfastspl_section.jpg";
+import { MenuItem } from "../types/menu";
+
+export const breakfastSpl: MenuItem[] = [
+  {
+    id: 900,
+    category: "Breakfast Steak, Pork & Lamb",
+    dish_name: "Webb",
+    ingredients: [
+      "Potato rosti",
+      "Rib fillet 100g (medium rare)",
+      "Grilled onion",
+      "Poached egg",
+      "Hollandaise sauce",
+      "Toast",
+    ],
+    price: 25,
+    image: breakfastSplImg,
+  },
+  {
+    id: 901,
+    category: "Breakfast Steak, Pork & Lamb",
+    dish_name: "Gateway",
+    ingredients: [
+      "Rib fillet 100g (medium rare)",
+      "Bacon (1)",
+      "Fried egg",
+      "Hash brown (2)",
+      "Grilled mushrooms",
+      "Relish (eggplant & tomato)",
+      "Toast",
+    ],
+    price: 25,
+    image: breakfastSplImg,
+  },
+  {
+    id: 902,
+    category: "Breakfast Steak, Pork & Lamb",
+    dish_name: "Merino",
+    ingredients: [
+      "Pulled lamb 130g",
+      "Fried egg",
+      "Bacon (1)",
+      "Hash brown (2)",
+      "Sausages (2)",
+      "Grilled tomato (1)",
+      "Gravy",
+      "Toast",
+    ],
+    price: 25,
+    image: breakfastSplImg,
+  },
+  {
+    id: 903,
+    category: "Breakfast Steak, Pork & Lamb",
+    dish_name: "Endeavour",
+    ingredients: [
+      "Potato rosti",
+      "Pork belly (3)",
+      "BBQ sauce",
+      "Poached eggs",
+      "Hollandaise sauce",
+      "Toast",
+    ],
+    price: 25,
+    image: breakfastSplImg,
+  },
+  {
+    id: 904,
+    category: "Breakfast Steak, Pork & Lamb",
+    dish_name: "Lights on the Hill",
+    ingredients: [
+      "Bacon (2)",
+      "Alex the hot (Spicy sausage63) 100g",
+      "Pork belly (1)",
+      "Fried eggs",
+      "White High Top toast",
+    ],
+    price: 28,
+    image: breakfastSplImg,
+  },
+];
